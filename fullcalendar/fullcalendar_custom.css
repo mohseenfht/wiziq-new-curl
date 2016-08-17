@@ -1,0 +1,16 @@
+#calendar {
+		max-width: 900px;
+		margin: 0 auto;
+	} 
+        
+.fc-button-group {
+    text-transform: capitalize;
+}
+.fc-today-button.ui-button.ui-state-default.ui-corner-left.ui-corner-right.ui-state-disabled{
+     text-transform: capitalize;
+}
+
+.fc-month-button.ui-button.ui-state-default.ui-corner-left, .fc-agendaWeek-button.ui-button.ui-state-default, .fc-agendaDay-button.ui-button.ui-state-default.ui-corner-right{
+  text-transform: capitalize;  
+    
+}

@@ -1,0 +1,15 @@
+/* Sortable tables */
+table.sortable thead {
+    background-color:#eee;
+    color:#666666;
+    font-weight: bold;
+    cursor: default;
+}
+
+/* It's possible to show a symbol in a sortable table's column headers to indicate that the table is sortable */
+table.sortable thead th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+     content: " \25B4\25BE" 
+} 
+
+
+
